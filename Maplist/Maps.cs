@@ -128,9 +128,10 @@ namespace Maplist
                 }
             }
 
+
             foreach (String map in orderedMaps)
             {
-                Console.WriteLine(map);
+                Console.WriteLine(map + " " + getModeRounds(getModeFromLine(map)));
             }
             Console.WriteLine("Mapcount:" + orderedMaps.Count);
         }
